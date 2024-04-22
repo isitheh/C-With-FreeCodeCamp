@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\FreeCodeCampCourse\\",
+  "WorkspaceRootPath": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3389FE5-E830-4E0B-B4C0-48A36BF7026A}|MyFirstProject\\MyFirstProject.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\freecodecampcourse\\myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3389FE5-E830-4E0B-B4C0-48A36BF7026A}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34D90165-D44E-4FC4-A1AF-9DCA3AB2215D}|DataTypes\\DataTypes.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\datatypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34D90165-D44E-4FC4-A1AF-9DCA3AB2215D}|DataTypes\\DataTypes.csproj|solutionrelative:datatypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3389FE5-E830-4E0B-B4C0-48A36BF7026A}|MyFirstProject\\HelloWorld.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3389FE5-E830-4E0B-B4C0-48A36BF7026A}|MyFirstProject\\HelloWorld.csproj|solutionrelative:myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,9 +40,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\FreeCodeCampCourse\\MyFirstProject\\Program.cs",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\DataTypes\\Program.cs",
+              "RelativeDocumentMoniker": "DataTypes\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\DataTypes\\Program.cs",
+              "RelativeToolTip": "DataTypes\\Program.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAIwEIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:25:32.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\MyFirstProject\\Program.cs",
               "RelativeDocumentMoniker": "MyFirstProject\\Program.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\FreeCodeCampCourse\\MyFirstProject\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\MyFirstProject\\Program.cs",
               "RelativeToolTip": "MyFirstProject\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
