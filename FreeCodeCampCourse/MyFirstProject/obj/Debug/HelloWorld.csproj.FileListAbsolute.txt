@@ -1,0 +1,7 @@
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\bin\Debug\MyFirstProject.exe.config
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\bin\Debug\MyFirstProject.exe
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\bin\Debug\MyFirstProject.pdb
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\obj\Debug\MyFirstProject.exe
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\obj\Debug\MyFirstProject.pdb
