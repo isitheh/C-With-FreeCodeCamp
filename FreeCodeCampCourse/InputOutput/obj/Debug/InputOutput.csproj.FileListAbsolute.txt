@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\InputOutput\bin\Debug\InputOutput.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\InputOutput\bin\Debug\InputOutput.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\InputOutput\bin\Debug\InputOutput.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\InputOutput\obj\Debug\InputOutput.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\InputOutput\obj\Debug\InputOutput.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\InputOutput\obj\Debug\InputOutput.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\InputOutput\obj\Debug\InputOutput.pdb

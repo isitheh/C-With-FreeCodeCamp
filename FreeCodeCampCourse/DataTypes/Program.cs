@@ -67,5 +67,43 @@ namespace DataTypes
             Console.WriteLine("My first name is: " + firstName);
             Console.WriteLine("First letter of my last name is: " + firstLetterOfSurname);
         }
+
+        public static void ConvertStringToNum()
+        {
+            string number = "100";
+            int convertedNumber = int.Parse(number);
+            Console.WriteLine("Converted Number: " + convertedNumber);
+
+            string textAge = "-23";
+            int age = Convert.ToInt32(textAge);
+            Console.WriteLine("Integer age = ", age);
+
+            string textBigNumber = "-900000000";
+            long bigNumber = Convert.ToInt64(textBigNumber);
+            Console.WriteLine("Big Number = ", bigNumber);
+
+            string textNegative = "-55.2";
+            double negative = Convert.ToDouble(textNegative);
+            Console.WriteLine("Double Negative: ", negative);
+
+            string textPrescision = "-5.000002";
+            float prescision = Convert.ToSingle(textPrescision);
+            Console.WriteLine("Float Prescision: ", prescision);
+
+            string textMoney = "14.79";
+            decimal money = Convert.ToDecimal(textMoney);
+            Console.WriteLine("Decimal Money: ", money);
+        }
+    }
+
+    class BooleanDataTypes
+    {
+        public static void BooleanDataInfo()
+        {
+            bool isTrue = true;
+            bool isFalse = false;
+            Console.WriteLine("Is True: " + isTrue);
+            Console.WriteLine("Is False: " + isFalse);
+        }
     }
 }
