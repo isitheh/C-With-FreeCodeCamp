@@ -13,6 +13,8 @@ namespace Operations
             OperatingOn();
             VarKeyWord();
             Constants();
+            ConditionalOperators();
+            TernaryOperator();
             Console.ReadLine();
         }
 
@@ -76,6 +78,33 @@ namespace Operations
             int balance = 1000;
             Console.WriteLine("The VAT amounts to: " + (balance * (vat / 100D)));
             Console.WriteLine("Price before VAT: " + (balance - (balance * (vat/100D))));
-        }   
+        } 
+        
+        static void ConditionalOperators()
+        {
+            int age;
+            do
+            {
+                Console.Write("Enter your age: ");
+                age = Convert.ToInt32(Console.ReadLine());
+                if(age < 0)
+                {
+                    Console.WriteLine("Age Invalid!");
+                }
+            } while (age < 0);
+            Console.WriteLine("Age Valid!");
+        }
+        
+        static void TernaryOperator()
+        {
+            int age;
+            do
+            {
+                Console.Write("Enter your age: ");
+                age = Convert.ToInt32(Console.ReadLine());
+                string message = age < 0 ? "Age Invalid!" : "Age Valid!";
+                Console.WriteLine(message);
+            } while (age < 0);
+        }
     }
 }
