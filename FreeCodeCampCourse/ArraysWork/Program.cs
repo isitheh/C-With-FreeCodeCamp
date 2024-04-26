@@ -11,8 +11,9 @@ namespace ArraysWork
     {
         static void Main(string[] args)
         {
-            //JustArrays();
+            JustArrays();
             TriangleArrays();
+            ArraySort();
             Console.ReadLine();
         }
 
@@ -48,6 +49,21 @@ namespace ArraysWork
                 sum += Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine(sum == 180 ? "Valid Triangle" : "Invalid Tiangle");
+        }
+
+        static void ArraySort()
+        {
+            int[] numbers = new int[]
+            {
+                15, 8, 10, 11, 3, 1, 5, 9, 2, 4, 25, 19, 6
+            };
+
+            Array.Sort(numbers);
+
+            foreach (int num in numbers)
+            {
+                Console.Write($"{num}");
+            }
         }
     }
 }
