@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02327709-3451-421D-9C0F-4EDA62B8EFF8}|ListsClass\\ListsClass.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\listsclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02327709-3451-421D-9C0F-4EDA62B8EFF8}|ListsClass\\ListsClass.csproj|solutionrelative:listsclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6C531E1-29FD-4E09-931E-4821DC30323F}|ArraysWork\\ArraysWork.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\arrayswork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6C531E1-29FD-4E09-931E-4821DC30323F}|ArraysWork\\ArraysWork.csproj|solutionrelative:arrayswork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -36,11 +40,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ListsClass\\Program.cs",
+              "RelativeDocumentMoniker": "ListsClass\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ListsClass\\Program.cs",
+              "RelativeToolTip": "ListsClass\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:12:32.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ArraysWork\\Program.cs",
               "RelativeDocumentMoniker": "ArraysWork\\Program.cs",
               "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ArraysWork\\Program.cs",
               "RelativeToolTip": "ArraysWork\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T07:44:39.982Z",
               "EditorCaption": ""
