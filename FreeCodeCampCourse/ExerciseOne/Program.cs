@@ -11,10 +11,13 @@ namespace ExerciseOne
     {
         static void Main(string[] args)
         {
-            ExerciseOne();
+            /*ExerciseOne();
             ExerciseTwo();
             ExerciseThree();
             ExerciseFour();
+            ListsExercises();
+            ListsExerciseAgain();*/
+            TimesList();
             Console.ReadLine();
         }
 
@@ -257,6 +260,87 @@ namespace ExerciseOne
             else
             {
                 return true;    
+            }
+        }
+
+        /*
+         * Create two Lists of integers
+         * One list is even numbers, the other odd numbers
+         * Loop from 0-20
+         *   * If the number is even, add to the even list
+         *   * If the number is odd, add to the odd list
+         * Print even list
+         * Print odd list
+         */
+        static void ListsExercises()
+        {
+            List<int> evenNumbers = new List<int>();
+            List<int> oddNumbers = new List<int>();
+
+            for (int i = 0; i <= 20; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    evenNumbers.Add(i);
+                } else
+                {
+                    oddNumbers.Add(i);
+                }
+            }
+
+            Console.WriteLine("Even Numbers: ");
+
+            foreach (int even in evenNumbers)
+            {
+                Console.WriteLine($"{even }");
+            }
+
+            Console.WriteLine("\nOdd Numbers: ");
+
+            foreach (int odd in oddNumbers)
+            {
+                Console.WriteLine($"{odd }");
+            }
+
+            Console.WriteLine();
+        }
+
+        /*
+         * Define and initialise two integers (num, length).
+         * Create an integer array of size length.
+         * Loop through and insert into the array.
+         * Print the final array.
+         */
+        static void ListsExerciseAgain()
+        {
+            int num = 0, length = 5;
+            int[] mArray = new int[length];
+            for(int i = 0; i < length; i++)
+            {
+                //Generate a random number
+                Random randomNum = new Random();
+                num += randomNum.Next(1, 100);
+                mArray[i] = num;
+            }
+
+            foreach (int val in mArray)
+            {
+                Console.WriteLine(val);
+            }
+        }
+
+        static void TimesList()
+        {
+            int num = 7, length = 5;
+            int[] mArray = new int[length];
+            for (int i = 0; i < length; i++)
+            {
+                mArray[i] = num * (i + 1);
+            }
+
+            foreach (int val in mArray)
+            {
+                Console.WriteLine(val);
             }
         }
     }

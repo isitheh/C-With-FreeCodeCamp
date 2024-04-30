@@ -10,7 +10,9 @@ namespace ListsClass
     {
         static void Main(string[] args)
         {
-            JustLists();
+            //JustLists();
+            //JustDictionaries();
+            SubjectTeacherDictionary();
             Console.ReadLine();
         }
 
@@ -34,6 +36,85 @@ namespace ListsClass
             foreach (int num in mArray)
             {
                 Console.Write($"{num} ");
+            }
+        }
+
+        static void JustDictionaries()
+        {
+            Dictionary<int, string> names = new Dictionary<int, string>()
+            {
+                //Key, Value
+                { 1, "John" },
+                { 2, "Jane" },
+                { 3, "Jack" },
+                { 4, "Jill" }
+            };
+
+            for(int i = 0; i < names.Count;i++)
+            {
+                KeyValuePair<int, string> name = names.ElementAt(i);
+                Console.WriteLine($"{name.Key } - {name.Value}");
+            }
+
+            Console.WriteLine();
+
+            foreach (KeyValuePair<int, string> name in names)
+            {
+                Console.WriteLine($"{name.Key } - {name.Value}");
+            }
+        }
+
+        static void SubjectTeacherDictionary()
+        {
+            Dictionary<string, string> subjectTeacher = new Dictionary<string, string>()
+            {
+                { "Math", "Mr. Gama" },
+                { "Science", "Mrs. Sithole" },
+                { "History", "Miss. Myende" },
+                { "English", "Ms. Davis" }
+            };  
+
+            if(subjectTeacher.TryGetValue("Math", out string teacher))
+            {
+                Console.WriteLine($"The teacher for Math is {teacher}");
+            }
+            else
+            {
+                Console.WriteLine("Teacher not found");
+            }
+
+            foreach (KeyValuePair<string, string> subject in subjectTeacher)
+            {
+                Console.WriteLine($"{subject.Key} - {subject.Value}");
+            }
+
+            Console.WriteLine();
+
+            if (subjectTeacher.TryGetValue("English", out string enTeacher))
+            {
+                Console.WriteLine($"The teacher for English is {enTeacher}");
+                subjectTeacher["English"] = "Miss Ntuli";
+            }
+            else
+            {
+                Console.WriteLine("Teacher not found");
+            }
+
+            foreach (KeyValuePair<string, string> subject in subjectTeacher)
+            {
+                Console.WriteLine($"{subject.Key} - {subject.Value}");
+            }
+
+            Console.WriteLine();
+
+            if(subjectTeacher.ContainsKey("Math"))
+            {
+                subjectTeacher.Remove("Math");
+            }
+
+            foreach (KeyValuePair<string, string> subject in subjectTeacher)
+            {
+                Console.WriteLine($"{subject.Key} - {subject.Value}");
             }
         }
     }
