@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysWork", "ArraysWork\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsClass", "ListsClass\ListsClass.csproj", "{02327709-3451-421D-9C0F-4EDA62B8EFF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsWork", "FunctionsWork\FunctionsWork.csproj", "{F11E8BFB-23EE-4590-9C12-A41D18DF7FE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{02327709-3451-421D-9C0F-4EDA62B8EFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02327709-3451-421D-9C0F-4EDA62B8EFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02327709-3451-421D-9C0F-4EDA62B8EFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11E8BFB-23EE-4590-9C12-A41D18DF7FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11E8BFB-23EE-4590-9C12-A41D18DF7FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11E8BFB-23EE-4590-9C12-A41D18DF7FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11E8BFB-23EE-4590-9C12-A41D18DF7FE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
