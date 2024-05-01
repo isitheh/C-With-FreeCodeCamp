@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\FunctionsWork\bin\Debug\FunctionsWork.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\FunctionsWork\bin\Debug\FunctionsWork.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\FunctionsWork\bin\Debug\FunctionsWork.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\FunctionsWork\obj\Debug\FunctionsWork.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\FunctionsWork\obj\Debug\FunctionsWork.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\FunctionsWork\obj\Debug\FunctionsWork.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\FunctionsWork\obj\Debug\FunctionsWork.pdb
