@@ -1,7 +1,0 @@
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ArraysWork\bin\Debug\ArraysWork.exe.config
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ArraysWork\bin\Debug\ArraysWork.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ArraysWork\bin\Debug\ArraysWork.pdb
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ArraysWork\obj\Debug\ArraysWork.csproj.AssemblyReference.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ArraysWork\obj\Debug\ArraysWork.csproj.CoreCompileInputs.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ArraysWork\obj\Debug\ArraysWork.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ArraysWork\obj\Debug\ArraysWork.pdb

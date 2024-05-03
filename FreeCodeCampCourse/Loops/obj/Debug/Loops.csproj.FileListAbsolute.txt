@@ -1,7 +1,0 @@
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Loops\bin\Debug\Loops.exe.config
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Loops\bin\Debug\Loops.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Loops\bin\Debug\Loops.pdb
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Loops\obj\Debug\Loops.csproj.AssemblyReference.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Loops\obj\Debug\Loops.csproj.CoreCompileInputs.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Loops\obj\Debug\Loops.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Loops\obj\Debug\Loops.pdb

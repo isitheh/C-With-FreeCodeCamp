@@ -1,7 +1,0 @@
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExerciseOne\bin\Debug\ExerciseOne.exe.config
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExerciseOne\bin\Debug\ExerciseOne.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExerciseOne\bin\Debug\ExerciseOne.pdb
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExerciseOne\obj\Debug\Exercises.csproj.AssemblyReference.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExerciseOne\obj\Debug\Exercises.csproj.CoreCompileInputs.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExerciseOne\obj\Debug\ExerciseOne.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExerciseOne\obj\Debug\ExerciseOne.pdb

@@ -1,7 +1,0 @@
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ListsClass\bin\Debug\ListsClass.exe.config
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ListsClass\bin\Debug\ListsClass.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ListsClass\bin\Debug\ListsClass.pdb
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ListsClass\obj\Debug\ListsClass.csproj.AssemblyReference.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ListsClass\obj\Debug\ListsClass.csproj.CoreCompileInputs.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ListsClass\obj\Debug\ListsClass.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ListsClass\obj\Debug\ListsClass.pdb
