@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Operations\bin\Debug\Operations.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Operations\bin\Debug\Operations.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Operations\bin\Debug\Operations.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Operations\obj\Debug\Operations.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Operations\obj\Debug\Operations.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Operations\obj\Debug\Operations.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\Operations\obj\Debug\Operations.pdb

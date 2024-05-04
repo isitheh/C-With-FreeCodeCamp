@@ -16,8 +16,11 @@ namespace ExerciseOne
             ExerciseThree();
             ExerciseFour();
             ListsExercises();
-            ListsExerciseAgain();*/
+            ListsExerciseAgain();
             TimesList();
+            AreaTriangle();
+            Console.WriteLine($"Sum of array = {SumIntArray()}");*/
+            SumIntArrayBase();
             Console.ReadLine();
         }
 
@@ -341,6 +344,88 @@ namespace ExerciseOne
             foreach (int val in mArray)
             {
                 Console.WriteLine(val);
+            }
+        }
+
+        /*
+         * Ask user for width and height of a triangle and store.
+         * Calculate the area of the triangle with 
+         * the formula: 0.5 * width * height
+         * Print the area of the triangle.
+         */
+        static void AreaTriangle()
+        {
+            double width = ReadDouble("Enter triangle width: ");
+            double height = ReadDouble("Enter triangle height: ");
+            double area = CalculateArea(width, height);
+            Console.WriteLine("The area of the triangle is: {0}", area);
+        }
+
+        static double ReadDouble(string message)
+        {
+            Console.Write(message);
+            return Convert.ToDouble(Console.ReadLine());
+        }
+
+        static double CalculateArea(double width, double height)
+        {
+            return 0.5 * width * height;
+        }
+
+        /*
+         * Create and initialize an integer array.
+         * Create function to sum the elements of the array.
+         * Function to return an int total of all arry numbers.
+         * Function to return -1 if array is empty.
+         */
+        static int SumIntArray()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            if(numbers.Length == 0)
+            {
+                return -1;
+            }
+            int total = 0;
+            for(int i = 0; i < numbers.Length; i++)
+            {
+                Console.Write($"{numbers[i]} ");
+                total += numbers[i];
+            }
+            Console.WriteLine();
+            return total;
+        }
+
+        static void SumIntArrayBase()
+        {
+            int[] numbers = new int[] 
+            { 
+                1, 2, 3, 4, 5 
+            };
+            int total = 0;
+            if(SumIntArrayLogic(numbers, out total))
+            {
+                Console.WriteLine($"Sum of array: {total}");
+            }
+            else
+            {
+                Console.WriteLine("Array is empty.");
+            }
+        }
+
+        static bool SumIntArrayLogic(int[] numbers, out int total)
+        {
+            total = 0;
+            if(numbers.Length == 0)
+            {
+                return false;
+            }
+            else
+            {
+                foreach(int num in numbers)
+                {
+                    total += num;
+                }
+                return true;
             }
         }
     }

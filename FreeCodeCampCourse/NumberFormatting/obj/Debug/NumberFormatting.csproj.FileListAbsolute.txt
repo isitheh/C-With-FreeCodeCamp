@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\NumberFormatting\bin\Debug\NumberFormatting.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\NumberFormatting\bin\Debug\NumberFormatting.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\NumberFormatting\bin\Debug\NumberFormatting.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\NumberFormatting\obj\Debug\NumberFormatting.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\NumberFormatting\obj\Debug\NumberFormatting.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\NumberFormatting\obj\Debug\NumberFormatting.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\NumberFormatting\obj\Debug\NumberFormatting.pdb

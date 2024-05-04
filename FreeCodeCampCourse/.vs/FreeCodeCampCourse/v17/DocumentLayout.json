@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F11E8BFB-23EE-4590-9C12-A41D18DF7FE4}|FunctionsWork\\FunctionsWork.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\functionswork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F11E8BFB-23EE-4590-9C12-A41D18DF7FE4}|FunctionsWork\\FunctionsWork.csproj|solutionrelative:functionswork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|solutionrelative:exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,13 +36,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\FunctionsWork\\Program.cs",
-              "RelativeDocumentMoniker": "FunctionsWork\\Program.cs",
-              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\FunctionsWork\\Program.cs",
-              "RelativeToolTip": "FunctionsWork\\Program.cs",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAcwL4AAAAAAAAA",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
+              "RelativeDocumentMoniker": "ExerciseOne\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
+              "RelativeToolTip": "ExerciseOne\\Program.cs",
+              "ViewState": "AQIAAKMBAAAAAAAAAAAiwK0BAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T14:55:28.578Z",
+              "WhenOpened": "2024-05-03T17:01:25.003Z",
               "EditorCaption": ""
             }
           ]
