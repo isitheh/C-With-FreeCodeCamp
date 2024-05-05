@@ -5,3 +5,10 @@ C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\P
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\obj\Debug\MyFirstProject.exe
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\FreeCodeCampCourse\MyFirstProject\obj\Debug\MyFirstProject.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\MyFirstProject\bin\Debug\MyFirstProject.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\MyFirstProject\bin\Debug\MyFirstProject.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\MyFirstProject\bin\Debug\MyFirstProject.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\MyFirstProject\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\MyFirstProject\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\MyFirstProject\obj\Debug\MyFirstProject.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\MyFirstProject\obj\Debug\MyFirstProject.pdb

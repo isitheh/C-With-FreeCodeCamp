@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E983C3A-47B9-415D-91D5-520CEEB66248}|OOP\\OOP.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E983C3A-47B9-415D-91D5-520CEEB66248}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|solutionrelative:exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5802365D-D220-4123-81D8-4D1D9A0C8074}|ExceptionsWork\\ExceptionsWork.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\exceptionswork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5802365D-D220-4123-81D8-4D1D9A0C8074}|ExceptionsWork\\ExceptionsWork.csproj|solutionrelative:exceptionswork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,66 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1510,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\OOP\\Program.cs",
+              "RelativeDocumentMoniker": "OOP\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\OOP\\Program.cs",
+              "RelativeToolTip": "OOP\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA3wCYAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:27:08.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExceptionsWork\\Program.cs",
+              "RelativeDocumentMoniker": "ExceptionsWork\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExceptionsWork\\Program.cs",
+              "RelativeToolTip": "ExceptionsWork\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T10:32:27.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
               "RelativeDocumentMoniker": "ExerciseOne\\Program.cs",
               "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
               "RelativeToolTip": "ExerciseOne\\Program.cs",
-              "ViewState": "AQIAAKMBAAAAAAAAAAAiwK0BAAAJAAAA",
+              "ViewState": "AQIAAKQBAAAAAAAAAAAmwLcBAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T17:01:25.003Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1416,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 825,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 825,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{5726b0e3-1012-5233-81f9-d1fad48e7a56}"
             }
           ]
         }

@@ -19,8 +19,9 @@ namespace ExerciseOne
             ListsExerciseAgain();
             TimesList();
             AreaTriangle();
-            Console.WriteLine($"Sum of array = {SumIntArray()}");*/
-            SumIntArrayBase();
+            Console.WriteLine($"Sum of array = {SumIntArray()}");
+            SumIntArrayBase();*/
+            ExceptionsExercise();
             Console.ReadLine();
         }
 
@@ -427,6 +428,36 @@ namespace ExerciseOne
                 }
                 return true;
             }
+        }
+
+        static void ExceptionsExercise()
+        {
+            Console.Write("Enter a number: ");
+            string val = Console.ReadLine();
+            //int result = 0;
+            if (CustomTryParse(val, out int result))
+            {
+                Console.WriteLine($"String was converted to a value: {result}");
+            } else
+            {
+                Console.WriteLine("Conversion did not succeed. Try again.");
+                ExceptionsExercise();
+            }
+        }
+
+        static bool CustomTryParse(string val, out int result)
+        {
+            result = -1;
+            try
+            {
+                result = Convert.ToInt32(val);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+            return false;
         }
     }
 }

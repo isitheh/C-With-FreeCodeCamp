@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExceptionsWork\bin\Debug\ExceptionsWork.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExceptionsWork\bin\Debug\ExceptionsWork.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExceptionsWork\bin\Debug\ExceptionsWork.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExceptionsWork\obj\Debug\ExceptionsWork.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExceptionsWork\obj\Debug\ExceptionsWork.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExceptionsWork\obj\Debug\ExceptionsWork.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\ExceptionsWork\obj\Debug\ExceptionsWork.pdb
