@@ -24,10 +24,27 @@ namespace OOP
         }
         static void Main(string[] args)
         {
-            LearnAboutStructures();
+            /*LearnAboutStructures();
             UsingRef();
-            UsingRefStructureCall();
+            UsingRefStructureCall();*/
+            CallClassFunctions();
             Console.ReadLine();
+        }
+
+        private static void CallClassFunctions()
+        {
+            Vehicle vehicle = new Vehicle("Ford", "Fiesta", 153655);
+            Console.WriteLine("Oh nice vehicle: ");
+            Console.WriteLine(Vehicle.ReturnDetails(vehicle));
+            Console.WriteLine("Use the Vehicle Object to call the method: ");
+            Console.WriteLine(vehicle.ReturnDetails());
+            Console.WriteLine("Its time to upgrade my vehicle");
+            vehicle.Make = "Toyota";
+            vehicle.Model = "Hilux Legend";
+            vehicle.Mileage = 1500;
+            Console.WriteLine(vehicle.ReturnDetails());
+            Console.WriteLine(vehicle.ToString());
+            Console.WriteLine(vehicle.Equals(vehicle));
         }
 
         static void LearnAboutStructures()
