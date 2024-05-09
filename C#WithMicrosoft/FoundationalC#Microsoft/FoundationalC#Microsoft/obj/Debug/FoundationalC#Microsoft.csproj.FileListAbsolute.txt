@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\C#WithMicrosoft\FoundationalC#Microsoft\FoundationalC#Microsoft\bin\Debug\FoundationalC#Microsoft.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\C#WithMicrosoft\FoundationalC#Microsoft\FoundationalC#Microsoft\bin\Debug\FoundationalC#Microsoft.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\C#WithMicrosoft\FoundationalC#Microsoft\FoundationalC#Microsoft\bin\Debug\FoundationalC#Microsoft.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\C#WithMicrosoft\FoundationalC#Microsoft\FoundationalC#Microsoft\obj\Debug\FoundationalC#Microsoft.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\C#WithMicrosoft\FoundationalC#Microsoft\FoundationalC#Microsoft\obj\Debug\FoundationalC#Microsoft.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\C#WithMicrosoft\FoundationalC#Microsoft\FoundationalC#Microsoft\obj\Debug\FoundationalC#Microsoft.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\C#WithMicrosoft\FoundationalC#Microsoft\FoundationalC#Microsoft\obj\Debug\FoundationalC#Microsoft.pdb
