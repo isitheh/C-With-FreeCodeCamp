@@ -43,9 +43,28 @@ namespace FoundationalC_Microsoft
             Console.WriteLine("\n");
         }
 
-        public static void ExercisesMethodThree()
+        public static void OrderOfOperations()
         {
-            
+            int value1 = 3 + 4 * 5;     //23 - Start with multiplication
+            int value2 = (3 + 4) * 5;   //35 - Start with addition in parentheses
+            Console.WriteLine($"Value 1 = {value1}");
+            Console.WriteLine($"Value 2 = {value2}");
+        }
+
+        public static void FahrenheitToCelcius()
+        {
+            decimal fahrenheit = 94m;
+            int FarToCelc_Constant = 32;
+            decimal celcius = (fahrenheit - FarToCelc_Constant) * (5 / 9m);
+            Console.WriteLine($"The temperature is {String.Format("{0:0.00}", celcius)} Celcius.");
+        }
+
+        public static void CelciusToFahrenheit()
+        {
+            decimal celcius = 34.44m;
+            int FarToCelc_Constant = 32;
+            decimal fahrenheit = (celcius * (9m / 5)) + FarToCelc_Constant;
+            Console.WriteLine($"The temperature is {String.Format("{0:0.00}", fahrenheit)} fahrenheit.");
         }
     }
 }

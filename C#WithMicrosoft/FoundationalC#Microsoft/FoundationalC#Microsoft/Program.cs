@@ -19,9 +19,14 @@ namespace FoundationalC_Microsoft
             CharEscapeSequences();
             VerbatimStringLiterals();
             UnicodeEscapeCharacters();
-            Exercises.ExercisesMethodThree();
+            Exercises.OrderOfOperations();
             StringConcatenation();
             StringInterpolation();
+            WorkingWithTypes();
+            IncrementDecrement();
+            PrePostIncrementDecrement();
+            Exercises.FahrenheitToCelcius();
+            Exercises.CelciusToFahrenheit();
             Console.ReadLine();
         }
 
@@ -156,6 +161,71 @@ namespace FoundationalC_Microsoft
 
             string projectName = "First Project";
             Console.WriteLine($@"C:\Output\{projectName}\Data");
+        }
+
+        static void WorkingWithTypes()
+        {
+            int firstNumber = 12;
+            int secondNumber = 7;
+            string firstName = "Abishola";
+            string secondName = "Bob";
+            Console.WriteLine("Sum: " + (firstNumber + secondNumber));
+            Console.WriteLine(firstName + " sold " + firstNumber + " socks today.");
+            Console.WriteLine(secondName + " plans to sell " + secondNumber + " socks tomorrow.");
+        }
+
+        static void MathProblems()
+        {
+            int sum = 7 + 5;
+            int difference = 7 - 5;
+            int product = 7 * 5;
+            float quotient = 7.0f / 5;
+            decimal decimalQuotient = 7.0m / 5;
+            int remainder = 7 % 5;
+            int firstNumber = 7;
+            int secondNumber = 5;
+            decimal decimalQuotientCast = (decimal)firstNumber / (decimal)secondNumber;
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Difference: " + difference);
+            Console.WriteLine("Product: " + product);
+            Console.WriteLine("Quotient: " + quotient);
+            Console.WriteLine("Remainder: " + remainder);
+            Console.WriteLine($"Decimal Quotient: {decimalQuotient}");
+            Console.WriteLine($"Decimal Quotient using cast: {decimalQuotientCast}");
+        }
+
+        static void IncrementDecrement()
+        {
+            int value = 1;
+            Console.WriteLine($"Original value = {value}");
+            value++;
+            Console.WriteLine($"Incremented value = {value}");
+            value = value + 1;
+            Console.WriteLine($"Incremented value = {value}");
+            value += 1;
+            Console.WriteLine($"Incremented value = {value}");
+            value--;
+            Console.WriteLine($"Decremented value = {value}");
+            value = value - 1;
+            Console.WriteLine($"Decremented value = {value}");
+            value -= 1;
+            Console.WriteLine($"Decremented value = {value}");
+            Console.WriteLine();
+        }
+
+        static void PrePostIncrementDecrement()
+        {
+            int value = 1;
+            Console.WriteLine($"Original value = {value}");
+            Console.WriteLine($"Post-incremented value = {value++}");
+            Console.WriteLine($"After post-increment value = {value}");
+            Console.WriteLine($"Pre-incremented value = {++value}");
+            Console.WriteLine($"After pre-increment value = {value}");
+            Console.WriteLine($"Post-decremented value = {value--}");
+            Console.WriteLine($"After post-decrement value = {value}");
+            Console.WriteLine($"Pre-decremented value = {--value}");
+            Console.WriteLine($"After pre-decrement value = {value}");
+            Console.WriteLine();
         }
     }
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\C#WithMicrosoft\\FoundationalC#Microsoft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\c#withmicrosoft\\foundationalc#microsoft\\foundationalc#microsoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|solutionrelative:foundationalc#microsoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\C#WithMicrosoft\\FoundationalC#Microsoft\\foundationalc#microsoft\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|solutionrelative:foundationalc#microsoft\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\c#withmicrosoft\\foundationalc#microsoft\\foundationalc#microsoft\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|solutionrelative:foundationalc#microsoft\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\c#withmicrosoft\\foundationalc#microsoft\\foundationalc#microsoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591A41A3-CA4F-467F-83F9-B4E2CA792482}|FoundationalC#Microsoft\\FoundationalC#Microsoft.csproj|solutionrelative:foundationalc#microsoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Exercises.cs",
               "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\C#WithMicrosoft\\FoundationalC#Microsoft\\FoundationalC#Microsoft\\Exercises.cs",
               "RelativeDocumentMoniker": "FoundationalC#Microsoft\\Exercises.cs",
               "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\C#WithMicrosoft\\FoundationalC#Microsoft\\FoundationalC#Microsoft\\Exercises.cs",
               "RelativeToolTip": "FoundationalC#Microsoft\\Exercises.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAASwC8AAAAMAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAwwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T13:56:23.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\C#WithMicrosoft\\FoundationalC#Microsoft\\FoundationalC#Microsoft\\Program.cs",
               "RelativeDocumentMoniker": "FoundationalC#Microsoft\\Program.cs",
               "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\C#WithMicrosoft\\FoundationalC#Microsoft\\FoundationalC#Microsoft\\Program.cs",
               "RelativeToolTip": "FoundationalC#Microsoft\\Program.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAADwv50AAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T14:12:34.411Z",
               "EditorCaption": ""
