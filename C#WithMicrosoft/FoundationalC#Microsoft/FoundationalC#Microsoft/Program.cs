@@ -12,7 +12,7 @@ namespace FoundationalC_Microsoft
         {
             //Below - Hello World is a literal string
             Console.WriteLine("Hello World!");
-            PrintLiteralValues();
+            /*PrintLiteralValues();
             usingVarKeyword();
             Exercises.ExercisesMethodOne();
             Exercises.ExercisesMethodTwo();
@@ -26,7 +26,10 @@ namespace FoundationalC_Microsoft
             IncrementDecrement();
             PrePostIncrementDecrement();
             Exercises.FahrenheitToCelcius();
-            Exercises.CelciusToFahrenheit();
+            Exercises.CelciusToFahrenheit();*/
+            StudentGrade mStudentGrade = new StudentGrade();
+            mStudentGrade.CalculateTotals();
+            mStudentGrade.CalculateAverages();
             Console.ReadLine();
         }
 
