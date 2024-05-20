@@ -28,8 +28,9 @@ namespace FoundationalC_Microsoft
             Exercises.FahrenheitToCelcius();
             Exercises.CelciusToFahrenheit();*/
             StudentGrade mStudentGrade = new StudentGrade();
-            mStudentGrade.CalculateTotals();
-            mStudentGrade.CalculateAverages();
+            /*mStudentGrade.CalculateTotals();
+            mStudentGrade.CalculateAverages();*/
+            mStudentGrade.StudentGPACalculator();
             Console.ReadLine();
         }
 

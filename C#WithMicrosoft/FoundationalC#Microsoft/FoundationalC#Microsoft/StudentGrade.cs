@@ -121,5 +121,46 @@ namespace FoundationalC_Microsoft
             }
             return "Invalid Mark";
         }
+
+        public void StudentGPACalculator()
+        {
+            int A_Grade = 4;
+            int B_Grade = 3;
+
+            string studentName = "Sophia Johansen";
+
+            string course1Name = "English 101";
+            int course1Credits = 3;
+            int course1Grade = A_Grade;
+            string course2Name = "Algebra 101";
+            int course2Credits = 3;
+            int course2Grade = B_Grade;
+            string course3Name = "Biology 101";
+            int course3Credits = 4;
+            int course3Grade = B_Grade;
+            string course4Name = "Computer Science I";
+            int course4Credits = 4;
+            int course4Grade = B_Grade;
+            string course5Name = "Psychology 101";
+            int course5Credits = 3;
+            int course5Grade = A_Grade;
+            int courseCreditTotal = course1Credits + course2Credits + course3Credits + course4Credits + course5Credits;
+            int courseGradeTotal = (course1Grade * course1Credits) + (course2Grade * course2Credits) + (course3Grade * course3Credits)
+                + (course4Grade * course4Credits) + (course5Grade * course5Credits);
+            Console.WriteLine($"Student Name: {studentName}");
+            Console.WriteLine("Subject\t\t\tGrade\tCredit");
+            Console.WriteLine($"{course1Name}\t\t{course1Grade}\t{course1Credits}");
+            Console.WriteLine($"{course2Name}\t\t{course2Grade}\t{course2Credits}");
+            Console.WriteLine($"{course3Name}\t\t{course3Grade}\t{course3Credits}");
+            Console.WriteLine($"{course4Name}\t{course4Grade}\t{course4Credits}");
+            Console.WriteLine($"{course5Name}\t\t{course5Grade}\t{course5Credits}");
+            Console.WriteLine($"Course Credit Total: {courseCreditTotal}");
+            Console.WriteLine($"Course Grade Total: {courseGradeTotal}");
+            decimal gradePointAverage = (decimal) courseGradeTotal/courseCreditTotal;
+            int leadingDigit = (int)gradePointAverage;
+            int firstDigit = (int)(gradePointAverage * 10) % 10;
+            int secondDigit = (int)(gradePointAverage * 100) % 10;
+            Console.WriteLine($"Final Grade Point Average: {leadingDigit}.{firstDigit}{secondDigit}");
+        }
     }
 }

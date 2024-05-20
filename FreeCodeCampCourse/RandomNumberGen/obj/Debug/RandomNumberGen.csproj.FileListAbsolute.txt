@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\RandomNumberGen\bin\Debug\RandomNumberGen.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\RandomNumberGen\bin\Debug\RandomNumberGen.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\RandomNumberGen\bin\Debug\RandomNumberGen.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\RandomNumberGen\obj\Debug\RandomNumberGen.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\RandomNumberGen\obj\Debug\RandomNumberGen.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\RandomNumberGen\obj\Debug\RandomNumberGen.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\RandomNumberGen\obj\Debug\RandomNumberGen.pdb

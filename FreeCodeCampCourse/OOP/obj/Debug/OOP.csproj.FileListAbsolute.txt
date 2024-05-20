@@ -1,7 +1,2 @@
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\OOP\bin\Debug\OOP.exe.config
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\OOP\bin\Debug\OOP.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\OOP\bin\Debug\OOP.pdb
 C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
 C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\OOP\obj\Debug\OOP.exe
-C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\OOP\obj\Debug\OOP.pdb

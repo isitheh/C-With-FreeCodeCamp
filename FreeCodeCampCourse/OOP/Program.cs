@@ -26,8 +26,8 @@ namespace OOP
         {
             /*LearnAboutStructures();
             UsingRef();
-            UsingRefStructureCall();*/
-            CallClassFunctions();
+            UsingRefStructureCall();
+            CallClassFunctions();*/
             Console.ReadLine();
         }
 
