@@ -11,12 +11,20 @@ namespace RandomNumberGen
         static void Main(string[] args)
         {
             GetRandomNumber();
+            GetAnotherRandomNumber();
             Console.ReadLine();
         }
         static void GetRandomNumber()
         {
             Random dice = new Random();
             int roll = dice.Next(1, 7);
+            Console.WriteLine(roll);
+        }
+
+        static void GetAnotherRandomNumber()
+        {
+            Random random = new Random();
+            int roll = random.Next();
             Console.WriteLine(roll);
         }
     }
