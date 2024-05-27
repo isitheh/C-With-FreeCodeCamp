@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A65C582-F021-4252-A5F3-C92567E70690}|RandomNumberGen\\RandomNumberGen.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\randomnumbergen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A65C582-F021-4252-A5F3-C92567E70690}|RandomNumberGen\\RandomNumberGen.csproj|solutionrelative:randomnumbergen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E983C3A-47B9-415D-91D5-520CEEB66248}|OOP\\OOP.csproj|C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E983C3A-47B9-415D-91D5-520CEEB66248}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E983C3A-47B9-415D-91D5-520CEEB66248}|OOP\\OOP.csproj|C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\oop\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E983C3A-47B9-415D-91D5-520CEEB66248}|OOP\\OOP.csproj|solutionrelative:oop\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|solutionrelative:exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,38 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\RandomNumberGen\\Program.cs",
-              "RelativeDocumentMoniker": "RandomNumberGen\\Program.cs",
-              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\RandomNumberGen\\Program.cs",
-              "RelativeToolTip": "RandomNumberGen\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAADwvw0AAAAlAAAA",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
+              "RelativeDocumentMoniker": "ExerciseOne\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
+              "RelativeToolTip": "ExerciseOne\\Program.cs",
+              "ViewState": "AQIAADoCAAAAAAAAAAAmwFACAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:10:27.225Z",
+              "WhenOpened": "2024-05-26T20:12:45.897Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\OOP\\Vehicle.cs",
-              "RelativeDocumentMoniker": "OOP\\Vehicle.cs",
-              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\OOP\\Vehicle.cs",
-              "RelativeToolTip": "OOP\\Vehicle.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T08:34:01.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\OOP\\Program.cs",
-              "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\OOP\\Program.cs",
-              "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T13:27:08.414Z"
             }
           ]
         }

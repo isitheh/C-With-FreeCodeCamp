@@ -20,8 +20,13 @@ namespace ExerciseOne
             TimesList();
             AreaTriangle();
             Console.WriteLine($"Sum of array = {SumIntArray()}");
-            SumIntArrayBase();*/
+            SumIntArrayBase();
             ExceptionsExercise();
+            MethodOverloadingExample();
+            LargerOfTwo(600, 500);
+            ThreeWayDiceRoll();
+            RenewalRateSubscription();*/
+            FraudulentOrderChallenge();
             Console.ReadLine();
         }
 
@@ -458,6 +463,136 @@ namespace ExerciseOne
                 Console.WriteLine($"Error: {ex.Message}");
             }
             return false;
+        }
+
+        static void MethodOverloadingExample()
+        {
+            Random dice = new Random();
+            /*
+             * The Next() method doesn't set an upper and lower boundary, 
+             * so the method will return values ranging from 0 to 2,147,483,647, 
+             * which is the maximum value an int can store.
+             */
+            int roll1 = dice.Next();
+            /*
+             * The Next() method specifies the maximum value as an upper boundary, 
+             * so in this case, you can expect a random value between 0 and 100.
+             */
+            int roll2 = dice.Next(101);
+            /*
+             * The Next() method specifies both the minimum and maximum values, 
+             * so in this case, you can expect a random value between 50 and 100.
+             */
+            int roll3 = dice.Next(50, 101);
+
+            Console.WriteLine($"First roll: {roll1}");
+            Console.WriteLine($"Second roll: {roll2}");
+            Console.WriteLine($"Third roll: {roll3}");
+        }
+
+        /*
+         * Code challenge: Implement a method of the Math class that returns the larger of two numbers.
+         */
+        static int LargerOfTwo(int num1, int num2)
+        {
+            //Return the larger value between two values.
+            int largerValue = Math.Max(num1, num2);
+            Console.WriteLine($"Larger value between {num1} and {num2} is {largerValue}");
+            return largerValue;
+        }
+
+        /*
+         * Method to simulate rolling three six-sided dice. You'll evaluate the rolled values to calculate the score. 
+         * If the score is greater than an arbitrary total, then you'll display a winning message to the user. 
+         * If the score is below the cutoff, you'll display a losing message to the user.
+         * If any two dice you roll result in the same value, you get two bonus points for rolling doubles.
+         * If all three dice you roll result in the same value, you get six bonus points for rolling triples.
+         * If the sum of the three dice rolls, plus any point bonuses, is 15 or greater, you win the game. Otherwise, you lose.
+         */
+        static void ThreeWayDiceRoll()
+        {
+            Random dice = new Random();
+            int roll1 = dice.Next(1, 7);
+            int roll2 = dice.Next(1, 7);
+            int roll3 = dice.Next(1, 7);
+            int totalRoll = roll1 + roll2 + roll3;
+            Console.WriteLine($"You have rolled: {roll1}, {roll2} and {roll3}");
+            if(roll1 == roll2 && roll2 == roll3)
+            {
+                totalRoll += 6;
+            } else if(roll1 == roll2 || roll2 == roll3 || roll3 == roll1)
+            {
+                totalRoll += 2;
+            }
+
+            if (totalRoll > 15)
+            {
+                Console.WriteLine($"You total score is: {totalRoll}.  You win a car!");
+            }
+            else if (totalRoll > 12)
+            {
+                Console.WriteLine($"You total score is: {totalRoll}.  You win a motobike!");
+            }
+            else if (totalRoll > 10)
+            {
+                Console.WriteLine($"You total score is: {totalRoll}.  You win a bicycle!");
+            }
+            else
+            {
+                Console.WriteLine($"You total score is: {totalRoll}.  You win a coffee!");
+            }
+        }
+
+        /*
+         * Display a renewal message when a user logs into the software system and is notified 
+         * their subscription will soon end. You'll need to add a couple of decision statements 
+         * to properly add branching logic to the application to satisfy the requirements.
+         */
+        static void RenewalRateSubscription()
+        {
+            Random dice = new Random();
+            int daysLeftToExpire = dice.Next(0, 11);
+            Console.WriteLine($"Days left for subscription: {daysLeftToExpire}.");
+            if ( daysLeftToExpire <= 0 ) 
+            {
+                Console.WriteLine($"Your subscription has expired.");
+            }
+            else if(daysLeftToExpire == 1)
+            {
+                Console.WriteLine($"Your subscription expires within {daysLeftToExpire} day.");
+                Console.WriteLine($"Renew now and save 20%!");
+            }
+            else if(daysLeftToExpire <= 5)
+            {
+                Console.WriteLine($"Your subscription expires in {daysLeftToExpire} days.");
+                Console.WriteLine($"Renew now and save 10%!");
+            }
+            else if( daysLeftToExpire <= 10 ) 
+            {
+                Console.WriteLine($"Your subscription will expire soon. Renew now!");
+            } else
+            {
+                Console.WriteLine($"Subscription still in good grace.");
+            }
+        }
+
+        /*
+         * Your team has found a pattern. Orders that start with the letter "B" encounter fraud at a rate 25
+         * times greater than the normal rate. You write new code that outputs the Order ID of new orders where 
+         * the Order ID starts with the letter "B". This will be used by the fraud team to investigate further.
+         */
+        static void FraudulentOrderChallenge()
+        {
+            string[] OrderIDsArray = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+            foreach (string OrderID in OrderIDsArray ) 
+            { 
+                //Check if current order starts with letter 'B'
+                if(OrderID.StartsWith("B"))
+                {
+                    //Report this order
+                    Console.WriteLine($"This order {OrderID} is suspect.");
+                }
+            }
         }
     }
 }

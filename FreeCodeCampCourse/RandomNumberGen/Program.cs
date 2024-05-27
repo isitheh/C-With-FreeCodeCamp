@@ -24,7 +24,7 @@ namespace RandomNumberGen
         static void GetAnotherRandomNumber()
         {
             Random random = new Random();
-            int roll = random.Next();
+            int roll = random.Next(1, 7);
             Console.WriteLine(roll);
         }
     }
