@@ -25,8 +25,10 @@ namespace ExerciseOne
             MethodOverloadingExample();
             LargerOfTwo(600, 500);
             ThreeWayDiceRoll();
-            RenewalRateSubscription();*/
+            RenewalRateSubscription();
             FraudulentOrderChallenge();
+            RandomOrderIDs();*/
+            ReverseStringAndCountChars();
             Console.ReadLine();
         }
 
@@ -593,6 +595,57 @@ namespace ExerciseOne
                     Console.WriteLine($"This order {OrderID} is suspect.");
                 }
             }
+        }
+
+        /*
+         * Method below creates five random order IDs to test the fraud detection process.
+         * OrderIDs consist of the leter from A to E and a three digit number. Ex. A123.
+         */
+        static void RandomOrderIDs()
+        {
+            Random ran = new Random();
+            string[] orderIDs = new string[5];
+
+            for (int i = 0; i < orderIDs.Length; i++)
+            {
+                int prefixValue = ran.Next(65, 70);
+                string prefixLetter = Convert.ToChar(prefixValue).ToString();
+                string suffixNumber = ran.Next(100, 1000).ToString();
+                orderIDs[i] = prefixLetter + suffixNumber;
+            }
+
+            foreach (string orderID in orderIDs)
+            {
+                Console.WriteLine(orderID);
+            }
+        }
+
+        /*
+         * The high-level purpose of this code is to reverse a string and count 
+         * the number of times a particular character appears.
+         * Solve as follows:
+         *  Convert the message into a char array
+         *  Reverse the characters
+         *  Count the number of 'Os'
+         *  Convert it back to a string
+         *  Print out the string
+         */
+        static void ReverseStringAndCountChars()
+        {
+            string originalString = "The quick brown fox jumps over the lazy dog.";
+            char[] charMessage = originalString.ToCharArray();
+            Array.Reverse(charMessage);
+            int numberOfDesiredCharacters = 0;
+            foreach (char i in charMessage) 
+            { 
+                if (i == 'o') 
+                {
+                    numberOfDesiredCharacters++; 
+                } 
+            }
+            string newMessage = new String(charMessage);
+            Console.WriteLine(newMessage);
+            Console.WriteLine($"'o' appears {numberOfDesiredCharacters} times.");
         }
     }
 }

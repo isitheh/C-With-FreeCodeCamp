@@ -1,0 +1,15 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\bin\Debug\net8.0\Starter.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\bin\Debug\net8.0\Starter.deps.json
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\bin\Debug\net8.0\Starter.runtimeconfig.json
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\bin\Debug\net8.0\Starter.dll
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\bin\Debug\net8.0\Starter.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.AssemblyInfoInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.AssemblyInfo.cs
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.sourcelink.json
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.dll
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\refint\Starter.dll
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\Starter.genruntimeconfig.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\Starter\obj\Debug\net8.0\ref\Starter.dll

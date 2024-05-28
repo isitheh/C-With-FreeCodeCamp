@@ -17,8 +17,9 @@ namespace ArraysWork
             ArraySortReverse();
             ArrayIndexOf();
             DealInArraysOne();
-            DealInArraysTwo();*/
-            AraysIterator();
+            DealInArraysTwo();
+            AraysIterator();*/
+            PupilAssignmentGrading();
             Console.ReadLine();
         }
 
@@ -237,6 +238,117 @@ namespace ArraysWork
                 Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
             }
             Console.WriteLine($"We have = {sum} items, in the inventory.");
+        }
+
+        /*
+         * Use arrays to store student names and the scores of graded assignments.
+         * Use foreach statements to iterate through array values. 
+         * Each student's final grade will be calculated inside a foreach code block. 
+         * Use an if statement to assign a final letter grade. The completed application 
+         * will output student grades using the teacher's score report specification.
+         */
+        static void PupilAssignmentGrading()
+        {
+            string[] pupilNames = { "Sophia", "Andrew", "Emma", "Logan" };
+            int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
+            int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
+            int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
+            int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
+            decimal[] pupilMarks = new decimal[5];
+
+            int sophiaSum = 0;
+            foreach (int item in sophiaScores) 
+            {
+                sophiaSum += item;
+            }
+            pupilMarks[0] = sophiaSum/sophiaScores.Length;
+
+            int AndrewSum = 0;
+            foreach (int item in andrewScores)
+            {
+                AndrewSum += item;
+            }
+            pupilMarks[1] = AndrewSum/andrewScores.Length;
+
+            int EmmaSum = 0;
+            foreach (int item in andrewScores)
+            {
+                EmmaSum += item;
+            }
+            pupilMarks[2] = EmmaSum/emmaScores.Length;
+
+            int LoganSum = 0;
+            foreach (int item in loganScores)
+            {
+                LoganSum += item;
+            }
+            pupilMarks[3] = LoganSum / loganScores.Length;
+
+            Console.WriteLine("Student\tGrade\tSymbol");
+            for(int i = 0; i < pupilNames.Length; i++)
+            {
+                Console.WriteLine($"{pupilNames[i]}\t{pupilMarks[i]}\t{CalculateSumbol(pupilMarks[i])}");
+            }
+        }
+
+        static string CalculateSumbol(decimal pupilMark)
+        {
+            if(pupilMark > 0 && pupilMark < 60)
+            {
+                return "F";
+            }
+            else if(pupilMark > 59 &&  pupilMark < 63)
+            {
+                return "D-";
+            }
+            else if(pupilMark > 62 && pupilMark < 67)
+            {
+                return "D";
+            }
+            else if (pupilMark > 66 && pupilMark < 70)
+            {
+                return "D+";
+            }
+            else if (pupilMark > 69 && pupilMark < 73)
+            {
+                return "C-";
+            }
+            else if (pupilMark > 72 && pupilMark < 77)
+            {
+                return "C";
+            }
+            else if (pupilMark > 76 && pupilMark < 80)
+            {
+                return "C+";
+            }
+            else if (pupilMark > 79 && pupilMark < 83)
+            {
+                return "B-";
+            }
+            else if (pupilMark > 82 && pupilMark < 87)
+            {
+                return "B";
+            }
+            else if (pupilMark > 86 && pupilMark < 90)
+            {
+                return "B+";
+            }
+            else if (pupilMark > 89 && pupilMark < 93)
+            {
+                return "A-";
+            }
+            else if (pupilMark > 92 && pupilMark < 97)
+            {
+                return "A";
+            }
+            else if (pupilMark > 96 && pupilMark < 100)
+            {
+                return "A+";
+            }
+            else
+            {
+                return "Unknown";
+            }
         }
     }
 }
