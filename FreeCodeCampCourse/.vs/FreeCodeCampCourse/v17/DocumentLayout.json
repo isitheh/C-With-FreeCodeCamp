@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99ADA4E-A683-4C26-B582-12A9EA79218C}|ExerciseOne\\Exercises.csproj|solutionrelative:exerciseone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4ADD1CC-8532-4A78-AA50-89B1E3D7483D}|ConsoleApp1\\CodeBlocks.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4ADD1CC-8532-4A78-AA50-89B1E3D7483D}|ConsoleApp1\\CodeBlocks.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A706B4-B25D-4526-A76F-4BDEE0CB375C}|InputOutput\\InputOutput.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\inputoutput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A706B4-B25D-4526-A76F-4BDEE0CB375C}|InputOutput\\InputOutput.csproj|solutionrelative:inputoutput\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4ADD1CC-8532-4A78-AA50-89B1E3D7483D}|ConsoleApp1\\CodeBlocks.csproj|c:\\dev\\app.gama.dev\\c-with-freecodecamp\\freecodecampcourse\\consoleapp1\\codeblocks.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -24,25 +32,52 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
+              "RelativeDocumentMoniker": "ExerciseOne\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ExerciseOne\\Program.cs",
+              "RelativeToolTip": "ExerciseOne\\Program.cs",
+              "ViewState": "AQIAAIECAAAAAAAAAAASwJwCAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T15:06:24.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\InputOutput\\Program.cs",
+              "RelativeDocumentMoniker": "InputOutput\\Program.cs",
+              "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\InputOutput\\Program.cs",
+              "RelativeToolTip": "InputOutput\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:33:31.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAkwEYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T09:23:54.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CodeBlocks",
               "DocumentMoniker": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ConsoleApp1\\CodeBlocks.csproj",
               "RelativeDocumentMoniker": "ConsoleApp1\\CodeBlocks.csproj",
               "ToolTip": "C:\\dev\\App.Gama.Dev\\C-With-FreeCodeCamp\\FreeCodeCampCourse\\ConsoleApp1\\CodeBlocks.csproj",
               "RelativeToolTip": "ConsoleApp1\\CodeBlocks.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-03T18:01:56.551Z"
+              "WhenOpened": "2024-06-03T18:01:56.551Z",
+              "EditorCaption": ""
             }
           ]
         }

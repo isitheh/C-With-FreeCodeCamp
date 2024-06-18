@@ -27,8 +27,9 @@ namespace ExerciseOne
             ThreeWayDiceRoll();
             RenewalRateSubscription();
             FraudulentOrderChallenge();
-            RandomOrderIDs();*/
-            ReverseStringAndCountChars();
+            RandomOrderIDs();
+            ReverseStringAndCountChars();*/
+            ExerciseSwitch();
             Console.ReadLine();
         }
 
@@ -155,9 +156,9 @@ namespace ExerciseOne
         {
             Console.Write("Input a message: ");
             string message = Console.ReadLine();
-            
+
             //Print the message in order
-            for(int i = 0; i < message.Length; i++)
+            for (int i = 0; i < message.Length; i++)
             {
                 Console.Write(message[i]);
                 Thread.Sleep(100);
@@ -168,7 +169,7 @@ namespace ExerciseOne
             {
                 Console.Write(message[i]);
                 Thread.Sleep(100);
-            } 
+            }
             Console.WriteLine();
         }
 
@@ -187,13 +188,13 @@ namespace ExerciseOne
              * If they are empty, print "Please enter a password"
              */
             bool isPasswordMatch = false;
-            while(!isPasswordMatch)
+            while (!isPasswordMatch)
             {
                 Console.Write("Enter a password: ");
                 string password = Console.ReadLine();
                 password = password.Trim();
 
-                if(!ConfirmPasswordStrength(password))
+                if (!ConfirmPasswordStrength(password))
                 {
                     continue;   //Start afresh and include the required characters
                 }
@@ -225,13 +226,13 @@ namespace ExerciseOne
             bool hasNumber = false;
             bool hasSpecial = false;
 
-            if(pwd.Length < 6)
+            if (pwd.Length < 6)
             {
                 Console.WriteLine("Password is too short.");
                 return false;
             }
 
-            if(string.IsNullOrEmpty(pwd))
+            if (string.IsNullOrEmpty(pwd))
             {
                 Console.WriteLine("Please enter a password.");
                 return false;
@@ -270,7 +271,7 @@ namespace ExerciseOne
             }
             else
             {
-                return true;    
+                return true;
             }
         }
 
@@ -290,7 +291,7 @@ namespace ExerciseOne
 
             for (int i = 0; i <= 20; i++)
             {
-                if(i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     evenNumbers.Add(i);
                 } else
@@ -303,14 +304,14 @@ namespace ExerciseOne
 
             foreach (int even in evenNumbers)
             {
-                Console.WriteLine($"{even }");
+                Console.WriteLine($"{even}");
             }
 
             Console.WriteLine("\nOdd Numbers: ");
 
             foreach (int odd in oddNumbers)
             {
-                Console.WriteLine($"{odd }");
+                Console.WriteLine($"{odd}");
             }
 
             Console.WriteLine();
@@ -326,7 +327,7 @@ namespace ExerciseOne
         {
             int num = 0, length = 5;
             int[] mArray = new int[length];
-            for(int i = 0; i < length; i++)
+            for (int i = 0; i < length; i++)
             {
                 //Generate a random number
                 Random randomNum = new Random();
@@ -389,12 +390,12 @@ namespace ExerciseOne
         static int SumIntArray()
         {
             int[] numbers = { 1, 2, 3, 4, 5 };
-            if(numbers.Length == 0)
+            if (numbers.Length == 0)
             {
                 return -1;
             }
             int total = 0;
-            for(int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 Console.Write($"{numbers[i]} ");
                 total += numbers[i];
@@ -405,12 +406,12 @@ namespace ExerciseOne
 
         static void SumIntArrayBase()
         {
-            int[] numbers = new int[] 
-            { 
-                1, 2, 3, 4, 5 
+            int[] numbers = new int[]
+            {
+                1, 2, 3, 4, 5
             };
             int total = 0;
-            if(SumIntArrayLogic(numbers, out total))
+            if (SumIntArrayLogic(numbers, out total))
             {
                 Console.WriteLine($"Sum of array: {total}");
             }
@@ -423,13 +424,13 @@ namespace ExerciseOne
         static bool SumIntArrayLogic(int[] numbers, out int total)
         {
             total = 0;
-            if(numbers.Length == 0)
+            if (numbers.Length == 0)
             {
                 return false;
             }
             else
             {
-                foreach(int num in numbers)
+                foreach (int num in numbers)
                 {
                     total += num;
                 }
@@ -519,10 +520,10 @@ namespace ExerciseOne
             int roll3 = dice.Next(1, 7);
             int totalRoll = roll1 + roll2 + roll3;
             Console.WriteLine($"You have rolled: {roll1}, {roll2} and {roll3}");
-            if(roll1 == roll2 && roll2 == roll3)
+            if (roll1 == roll2 && roll2 == roll3)
             {
                 totalRoll += 6;
-            } else if(roll1 == roll2 || roll2 == roll3 || roll3 == roll1)
+            } else if (roll1 == roll2 || roll2 == roll3 || roll3 == roll1)
             {
                 totalRoll += 2;
             }
@@ -555,21 +556,21 @@ namespace ExerciseOne
             Random dice = new Random();
             int daysLeftToExpire = dice.Next(0, 11);
             Console.WriteLine($"Days left for subscription: {daysLeftToExpire}.");
-            if ( daysLeftToExpire <= 0 ) 
+            if (daysLeftToExpire <= 0)
             {
                 Console.WriteLine($"Your subscription has expired.");
             }
-            else if(daysLeftToExpire == 1)
+            else if (daysLeftToExpire == 1)
             {
                 Console.WriteLine($"Your subscription expires within {daysLeftToExpire} day.");
                 Console.WriteLine($"Renew now and save 20%!");
             }
-            else if(daysLeftToExpire <= 5)
+            else if (daysLeftToExpire <= 5)
             {
                 Console.WriteLine($"Your subscription expires in {daysLeftToExpire} days.");
                 Console.WriteLine($"Renew now and save 10%!");
             }
-            else if( daysLeftToExpire <= 10 ) 
+            else if (daysLeftToExpire <= 10)
             {
                 Console.WriteLine($"Your subscription will expire soon. Renew now!");
             } else
@@ -586,10 +587,10 @@ namespace ExerciseOne
         static void FraudulentOrderChallenge()
         {
             string[] OrderIDsArray = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
-            foreach (string OrderID in OrderIDsArray ) 
-            { 
+            foreach (string OrderID in OrderIDsArray)
+            {
                 //Check if current order starts with letter 'B'
-                if(OrderID.StartsWith("B"))
+                if (OrderID.StartsWith("B"))
                 {
                     //Report this order
                     Console.WriteLine($"This order {OrderID} is suspect.");
@@ -636,16 +637,77 @@ namespace ExerciseOne
             char[] charMessage = originalString.ToCharArray();
             Array.Reverse(charMessage);
             int numberOfDesiredCharacters = 0;
-            foreach (char i in charMessage) 
-            { 
-                if (i == 'o') 
+            foreach (char i in charMessage)
+            {
+                if (i == 'o')
                 {
-                    numberOfDesiredCharacters++; 
-                } 
+                    numberOfDesiredCharacters++;
+                }
             }
             string newMessage = new String(charMessage);
             Console.WriteLine(newMessage);
             Console.WriteLine($"'o' appears {numberOfDesiredCharacters} times.");
+        }
+        static void ExerciseSwitch()
+        {
+            // SKU = Stock Keeping Unit. 
+            // SKU value format: <product #>-<2-letter color code>-<size code>
+            string sku = "01-MN-L";
+            string[] product = sku.Split('-');
+
+            string type = "";
+            string color = "";
+            string size = "";
+
+            //Determine the type
+            switch (product[0])
+            {
+                case "01":
+                    type = "Sweat shirt";
+                    break;
+                case "02":
+                    type = "T-Shirt";
+                    break;
+                case "03":
+                    type = "Sweat pants";
+                    break;
+                default:
+                    type = "Other";
+                    break;
+            }
+
+            //Determine the color
+            switch (product[1])
+            {
+                case "BL":
+                    color = "Small";
+                    break;
+                case "MN":
+                    color = "Medium";
+                    break;
+                default:
+                    color = "White";
+                    break;
+            }
+
+            //Determine the size
+            switch (product[2])
+            {
+                case "S":
+                    size = "Small";
+                    break;
+                case "M":
+                    size = "Medium";
+                    break;
+                case "L":
+                    size = "Large";
+                    break;
+                default:
+                    size = "One Size Fits All";
+                    break;
+            }
+
+            Console.WriteLine($"Product: {size} {color} {type}");
         }
     }
 }
