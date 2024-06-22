@@ -1,0 +1,7 @@
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\IterationLoops\bin\Debug\IterationLoops.exe.config
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\IterationLoops\bin\Debug\IterationLoops.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\IterationLoops\bin\Debug\IterationLoops.pdb
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\IterationLoops\obj\Debug\IterationLoops.csproj.AssemblyReference.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\IterationLoops\obj\Debug\IterationLoops.csproj.CoreCompileInputs.cache
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\IterationLoops\obj\Debug\IterationLoops.exe
+C:\dev\App.Gama.Dev\C-With-FreeCodeCamp\FreeCodeCampCourse\IterationLoops\obj\Debug\IterationLoops.pdb

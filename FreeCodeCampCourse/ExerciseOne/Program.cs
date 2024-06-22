@@ -660,7 +660,7 @@ namespace ExerciseOne
             string size = "";
 
             //Determine the type
-            switch (product[0])
+            switch(product[0])
             {
                 case "01":
                     type = "Sweat shirt";
